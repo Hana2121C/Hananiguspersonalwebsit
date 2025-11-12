@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <title>Skill</title>
+</head>
+<style>
+    nav {
+      background-color:#1F2833;/* Dark background */
+      display: flex;
+      justify-content:space-around;
+      gap: 100px;
+      padding: 0px 10px;
+      position:sticky;
+      top: 0;
+      align-items: center;
+      height: 60px;
+      
+     
+  
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: end;
+       text-align: end
+      
+      
+    }
+
+    nav ul li {
+      margin-left: 55px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      text-align:end;
+      color:#66FCF1;
+      font-size: 16px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+      margin-left: 50px;
+      
+    }
+
+    
+    #active {
+      color: #C9B59C;
+    }
+body { 
+  font-family: Arial, sans-serif; margin: 0; padding: 0px; 
+  background:#0f0f0f;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: left;
+  width: 100%;
+      height: 100vh;
+ } 
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #19191a;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+ 
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;;
+  
+}
+
+.project-card {
+  background: rgb(66, 63, 63);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  width: 500px;
+  padding-left: 20px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.img {
+  width: 80%;
+  height: 50px;
+  object-fit: cover;
+  padding-left: 10px;
+}
+
+.project-info {
+  padding: 1rem;
+}
+
+.project-info h2 {
+  color:aqua;
+  margin-bottom: 0.5rem;
+}
+
+.project-info a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.project-info a:hover {
+  background: aqua
+  
+}
+
+
+.h1{
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-top: 50px;
+    text-align: center;
+    color: aliceblue;
+  }
+.p{
+    color:white;
+    
+    font-family:cursive;
+    text-align: center;
+    }
+    .h2{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+     text-align: center;
+     padding-left: 100px;
+     color:aqua;
+    
+    
+     align-items: center;
+     }
+     .butn{
+ background: transparent;
+  border: 1px solid aqua;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  background-color: aqua;
+  
+  
+  padding-left: 20px;
+  margin-left: 100px;
+}
+.butn2{
+ background: transparent;
+  border: 1px solid aqua;
+  color: aqua;
+  border-radius: 15px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  
+  
+  
+  padding-left: 20px;
+  margin-left: 10px;
+  align-self: center;
+}
+.p1{
+    color:rgb(19, 19, 19);
+    
+    font-family:cursive;
+    
+    }
+  .list{
+  padding: 50px;
+  color: black;
+font-family:cursive;
+border-radius: 75px;
+border-color: #1F2833;
+border-style:dotted;
+background-color: aqua;
+font-weight: 400;
+
+
+  }
+  .fa-telegram{
+
+     font-size: 70px;
+    background: transparent;
+     color:aqua;
+  }
+</style>
+<body>
+    <nav>
+    <ul>
+      
+     <li> <a href="Home.html">Home</a></li>
+      <li><a href="About Me.html">About Me</a><br>
+    
+      <li><a href="Educational Background.html">Educational Background</a><br>
+      <li><a href="skill.html"id="active">Skill</a><br>
+         <li><a href="project.html">Project</a><br>
+      <li><a href="Contact us.html">Contact</a><br>
+    </ul>
+  </nav>
+  <h1 class="h1">My Skills</h1>
+    <p class="p">Here are some of my Skill</p>
+  
+   <section class="projects">
+    <div class="project-card">
+      <div class="project-info">
+        <h2 style="font-family:cursive;color: aqua;">Technical Skill</h2>
+        <Div class="list">
+          <ul>
+            <li class="p1">Html</li>
+            <li  class="p1">Css</li>
+            <li  class="p1">Java</li>
+            <li  class="p1">C++</li>
+            <li  class="p1">SQL</li>
+        </ul>
+        
+        </Div>
+        <br><a href="Educational Background.html" ><button class="butn">Background</button>
+</a><br>  
+      </div>
+    </div>
+
+    
+    <div class="project-card">
+      <h2 style="color: aqua;font-family: cursive;font-size: x-large; ">Handicraft Skill</h2>
+      <img src="Bag.PNG" alt="Project 2 Screenshot">
+      <div class="project-info">
+        <h2>Hanu bag</h2>
+        <p class="p1">I made Plastic Kavana Hand Bag for Bag information Clicke The button.</p>
+      <br><a href="https://t.me/+sArbHpLBhkphYTc0" ><button class="butn">Hanu Bag</button>
+</a><br>  <br><br>
+      </div>
+    </div>
+    </section>
+
+
+    <br>  <br><br>
+    <div class="h2">
+ <p style="color: azure;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;font-size: 30px;">For Any order Contact me</p>
+  
+<a href="https://t.me/+sArbHpLBhkphYTc0">
+  	<i class="fa-brands fa-telegram"></i>
+</a>
+ <br>  <br><br>
+ <br>  <br><br>
+</body>
+</html>

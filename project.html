@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+  nav {
+      background-color:#1F2833;/* Dark background */
+      display: flex;
+      justify-content:space-around;
+      gap: 100px;
+      padding: 0px 10px;
+      padding-top: 0%;
+      position:sticky;
+      top: 0;
+      align-items: center;
+      height: 60px;
+      
+     
+  
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: end;
+       text-align: end
+      
+      
+    }
+
+    nav ul li {
+      margin-left: 55px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      text-align:end;
+      color:#66FCF1;
+      font-size: 16px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+      margin-left: 50px;
+      
+    }
+
+    
+    #active {
+      color: #C9B59C;
+    }
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #19191a;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.img {
+  width: 80%;
+  height: 50px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 1rem;
+}
+
+.project-info h2 {
+  color:aqua;
+  margin-bottom: 0.5rem;
+}
+
+.project-info a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.project-info a:hover {
+  background: aqua
+  
+}
+
+
+.h1{
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-top: 50px;
+    text-align: center;
+    color: aliceblue;
+  }
+.p{
+    color:white;
+    
+    font-family:cursive;
+    text-align: center;
+    }
+    .h2{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+     text-align: center;
+     padding-left: 100px;
+     color:aqua;
+    
+    
+     align-items: center;
+     }
+     .butn{
+ background: transparent;
+  border: 1px solid aqua;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  background-color: aqua;
+  
+  
+  padding-left: 20px;
+  margin-left: 100px;
+}
+.butn2{
+ background: transparent;
+  border: 1px solid aqua;
+  color: aqua;
+  border-radius: 15px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  
+  
+  
+  padding-left: 20px;
+  margin-left: 10px;
+  align-self: center;
+}
+.p1{
+    color:rgb(19, 19, 19);
+    
+    font-family:cursive;
+    
+    }
+</style>
+<body>
+  <header>
+    <nav>
+    <ul>
+      
+     <li> <a href="Home.html">Home</a></li>
+      <li><a href="About Me.html">About Me</a><br>
+    
+      <li><a href="Educational Background.html">Educational Background</a><br>
+      <li><a href="skill.html">Skill</a><br>
+         <li><a href="project.html " id="active">Project</a><br>
+      <li><a href="Contact us.html">Contact</a><br>
+    </ul>
+  </nav>
+    <h1 class="h1">My Projects</h1>
+    <p class="p">Here are some of the projects I’ve worked on recently.</p>
+  
+
+  <section class="projects">
+
+  
+    <div class="project-card">
+      <div class="project-info">
+        <h2>My first simple web </h2>
+        <p class="p1">This is my simple and first websit for my Brother production,Found in github</p>
+        <br><a href="https://hana2121c.github.io/Jo-production/Home.html" ><button class="butn">Veiw Project</button>
+</a><br>
+     <br><br><br> <p class="p1">A creative space where I showcase my projects and favorite images, blending art and design in a simple, elegant layout.</p>
+      <br></div>
+    </div>
+
+    
+    <div class="project-card">
+      <img src="procalc.PNG" alt="Project 2 Screenshot">
+      <div class="project-info">
+        <h2>Professional Calculator</h2>
+        <p class="p1">I made professional calculator using java programing language.</p>
+        </div>
+    </div>
+
+    
+    <div class="project-card">
+      <img src="Adb.PNG" alt="Project 3 Screenshot">
+      <div class="project-info">
+        <h2 class="p1">Advanced Database Fitness Center</h2>
+        <p class="p1">This project Database manegment for Fitness Center it have Relatioal Schema,SQL code.</p></div>
+    <a href="ADB FITNESS.pdf";>
+      <button class="butn">Click For PDF</button>
+
+    </a>
+      </div>
+
+ 
+  
+  </section>
+  <div class="h2">
+ <p style="color: azure;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;font-size: 30px;">For all Project Click button</p>
+  
+<a href="https://t.me/+hJ8I_9UnyaRkNmFk">
+  	<button class="butn2">Project Channal</button>
+</a>
+ </div>
+ <br><br><br>
+</body>
+</html>

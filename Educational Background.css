@@ -1,0 +1,108 @@
+nav {
+      background-color:#1F2833;/* Dark background */
+      display: flex;
+      justify-content:space-around;
+      gap: 100px;
+      padding: 0px 10px;
+      position:sticky;
+      top: 0;
+      align-items: center;
+      
+     
+  
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: end;
+       text-align: end
+      
+      
+    }
+
+    nav ul li {
+      margin-left: 55px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      text-align:end;
+      color:#66FCF1;
+      font-size: 16px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+      margin-left: 50px;
+      
+    }
+
+    
+    #active {
+      color: #C9B59C;
+    }
+body { 
+  font-family: Arial, sans-serif; margin: 0; padding: 0px; 
+  background:#0B0C10;
+  background-image: url("green-chalkboard-background-with-school-supplies-doodles_1317057-19288.avif");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: left;
+  width: 100%;
+      height: 100vh;
+ } 
+ .parg{
+    color:white;
+    font-size: 15px;
+    padding: 20px;
+        font-family:cursive;
+
+ }
+ .h1{
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-top: 100px;
+    text-align: left;
+
+ }
+ .h2{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+     text-align: center;
+ }
+ .h3{
+    font-size:18px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+ }
+ .pstudy{
+
+text-align: center;
+
+ }
+div{
+     width:30%;  
+  display:inline-block;
+  background-color:#0B0C10;
+  color:aqua;
+  border-radius: 100px;
+  padding: 20px;
+  border-width: 10px;
+}
+.p{
+    color:white;
+    padding-left: 100px;
+    font-family:cursive;
+
+}
+.bach{
+     font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+}
+.ba{
+    color:white;
+    padding-left: 20px;
+    font-family:cursive;
+    text-align: center;
+}
